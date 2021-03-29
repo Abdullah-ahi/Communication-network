@@ -1,0 +1,23 @@
+.message-form {
+  margin-top: 20px;
+  position: relative;
+}
+.message-text-input {
+  width: 90%;
+}
+.edit-message-block {
+  position: absolute;
+  top: 33px;
+  color: transparent;
+  transition: top 0.3s, color 0.4s;
+  display: flex;
+  justify-content: space-between;
+  width: 88%;
+}
+.visible-edit-block {
+  top: -40px;
+  color: #000;
+}
+.editing-text {
+  max-width: 50%;
+}

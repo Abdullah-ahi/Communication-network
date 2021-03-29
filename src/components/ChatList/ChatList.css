@@ -1,0 +1,21 @@
+.chats-list {
+  width: 25%;
+  background: antiquewhite;
+  height: 100vh;
+}
+.chat-name-link {
+  text-decoration: none;
+  color: black;
+}
+.chats-item {
+  border: 1px solid #000;
+  background: cadetblue;
+  margin-bottom: 10px;
+  padding: 15px 8px !important;
+  transition: background .7s, color .7s, border-radius .7s;
+}
+.chats-item:hover {
+  background-color: black;
+  color: #fff;
+  border-radius: 9px;
+}

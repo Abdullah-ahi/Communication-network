@@ -1,0 +1,32 @@
+.message {
+  background: darkgrey;
+  border-radius: 18px;
+  padding: 6px 20px;
+  box-sizing: border-box;
+  font-size: 20px;
+  margin: 7px 15px;
+  max-width: 50%;
+  word-break: break-word;
+  position: relative;
+
+}
+.message-author {
+  font-size: 13px;
+  display: flex;
+  justify-content: space-between;
+}
+.own {
+  align-self: flex-end;
+}
+.companion {
+  align-self: flex-start;
+}
+.remove-icon, .edit-icon {
+  font-size: 1rem !important;
+}
+.remove-icon{
+  margin-left: 8px;
+}
+.edit-icon {
+  margin-left: 10px;
+}

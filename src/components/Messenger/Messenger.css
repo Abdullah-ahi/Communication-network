@@ -1,0 +1,14 @@
+body {
+  margin: 0;
+}
+
+.main {
+  display: flex;
+}
+.messages-list-wrapper {
+  width: 75%;
+}
+.empty-messages-plug {
+  margin: 0 auto;
+  align-self: center;
+}
